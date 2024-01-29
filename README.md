@@ -29,3 +29,25 @@ Um diese Anwendung lokal auszuführen, folge diesen Schritten:
    ```bash
    npm start
 Die Anwendung wird auf http://localhost:3000 ausgeführt.
+
+## Dummy-Daten
+
+Die Anwendung wird mit Dummy-Daten für Deployments initialisiert. Die Dummy-Daten sehen wie folgt aus:
+
+```javascript
+// Dummy-Daten für Deployments
+const deployments = [
+  {
+    id: 1,
+    name: "App 1",
+    date: "2022-01-16",
+  },
+  {
+    id: 2,
+    name: "App 2",
+    date: "2022-01-17",
+  },
+  // ... weitere Dummy-Daten
+];
+
+// - Jedes Deployment-Objekt hat eine eindeutige ID, einen Namen und ein Datum.
